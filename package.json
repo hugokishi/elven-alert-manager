@@ -1,0 +1,14 @@
+{
+  "name": "prom-winston-exporter",
+  "version": "1.0.8",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "dependencies": {
+    "prom-client": "^14.0.1"
+  },
+  "types": "./index.d.ts"
+}
