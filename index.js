@@ -19,7 +19,7 @@ const Alert = (message) => {
 /**
  * Start prometheus metrics exporter
  */
-const init = () => {
+const InitElvenAlertManager = () => {
   if (prometheusMetricsExporter) {
     return {
       prometheusMetricsExporter,
@@ -29,7 +29,7 @@ const init = () => {
   }
 
   prometheusMetricsExporter = new Gauge({
-    name: "winston_logs_bucket",
+    name: "logger_logs_bucket",
     help: "Returns logger level and message in metrics",
     labelNames: ["level", "message"],
   });
@@ -41,4 +41,4 @@ const init = () => {
   };
 };
 
-module.exports = { init };
+module.exports = { InitElvenAlertManager };

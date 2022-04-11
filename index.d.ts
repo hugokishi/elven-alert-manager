@@ -12,4 +12,4 @@ export type PrometheusMetricsExporter = {
 /**
  * ! Start a new Gauge in prom-client
  */
-export function init(): PrometheusMetricsExporter;
+export function InitElvenAlertManager(): PrometheusMetricsExporter;

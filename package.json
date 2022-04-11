@@ -1,6 +1,6 @@
 {
-  "name": "prom-winston-exporter",
-  "version": "1.0.8",
+  "name": "elven-alert-manager",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "files": [
